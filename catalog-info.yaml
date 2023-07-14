@@ -1,9 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: System
+kind: Component
 metadata:
   name: api-simplona
   description: Projeto para testes do Backstage
 spec:
+  type: service
   owner: marketplace
+  lifecycle: production
   dependsOn:
   - lib-simplona
