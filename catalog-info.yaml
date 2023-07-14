@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: api-simplona
-  description: Projeto para testes do Backstage
+  description: Projeto para testes do Backstageee
 spec:
   type: openapi
   lifecycle: production
