@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: api-simplona
+  description: Projeto para testes do Backstage
+spec:
+  type: openapi
+  lifecycle: production
+  owner: marketplace
+  # system: artist-engagement-portal # campo não obrigatório
+  definition: | # definição da API baseada no spec.type definido no template.
+    openapi: "3.0.0"
+    info:
+      version: 0.0.1-SNAPSHOT
+      title: API Simplona
+    servers:
+      - url: http://localhost:8080
+    paths:
+      /simples/mensagem:
+        get:
+          summary: informa uma mensagem simples e importante
