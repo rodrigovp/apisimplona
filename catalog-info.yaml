@@ -7,4 +7,3 @@ spec:
   owner: marketplace
   dependsOn:
   - lib-simplona
-  
