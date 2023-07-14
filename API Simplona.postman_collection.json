@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "357095f3-559b-47ed-bf9d-3b46918252af",
+		"name": "API Simplona",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18484800"
+	},
+	"item": [
+		{
+			"name": "mensagem simples",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/simples/mensagem",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"simples",
+						"mensagem"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
