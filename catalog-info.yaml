@@ -11,3 +11,5 @@ spec:
   - component:default/lib-simplona
   providesApis:
   - apisimplona-api
+  consumesApis:
+  - public-apis
