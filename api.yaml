@@ -7,6 +7,8 @@ spec:
   type: openapi
   lifecycle: production
   owner: marketplace
+  consumesApis:
+  - public-apis
 #  system: artist-engagement-portal # opcional. Mas parece bem interessante, para vincular à aplicação apisimplona, pois a relação aqui é 1 para 1
   definition: |
     openapi: "3.0.0"
