@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: apisimplona-api
+  description: Descreve a API Simplona
+spec:
+  type: openapi
+  lifecycle: production
+  owner: marketplace
+#  system: artist-engagement-portal # opcional. Mas parece bem interessante, para vincular à aplicação apisimplona, pois a relação aqui é 1 para 1
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Api Simplona API
+    servers:
+      - url: http://localhost:8080/mensagem
+    paths:
+      /simples:
+        get:
+          summary: exibe uma mensagem simples
+      /elaborada:
+          summary: exibe uma mensagem elaborada
