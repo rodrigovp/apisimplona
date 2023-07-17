@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: api-simplona
   description: Projeto para testes do Backstage
+  novaInformacao: novo valor
 spec:
   type: service
   owner: marketplace
