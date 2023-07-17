@@ -9,5 +9,5 @@ spec:
   lifecycle: production
   dependsOn:
   - component:default/lib-simplona
-  providesApi:
+  providesApis:
   - apisimplona-api
