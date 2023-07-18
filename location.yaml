@@ -4,6 +4,7 @@ metadata:
   name: apisimplona
 spec:
   type: url
+  owner: marketplace
   targets:
     - https://github.com/rodrigovp/apisimplona/blob/main/api.yaml
     - https://github.com/rodrigovp/apisimplona/blob/main/apisimplona-system.yaml
