@@ -2,6 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: apisimplona
-  description: uma api simplona, composta de 2 entities: um service e uma API
+  description: uma api simplona, composta de 2 entities. um service e uma API
 spec:
   owner: marketplace
