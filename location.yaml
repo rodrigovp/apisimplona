@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: apisimplona
+spec:
+  type: url
+  targets:
+    - https://github.com/rodrigovp/apisimplona/blob/main/api.yaml
+    - https://github.com/rodrigovp/apisimplona/blob/main/apisimplona-system.yaml
+    - https://github.com/rodrigovp/apisimplona/blob/main/catalog-info.yaml
